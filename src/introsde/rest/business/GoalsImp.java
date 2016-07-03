@@ -34,7 +34,7 @@ public class GoalsImp{
        static javax.ws.rs.core.Response response;
            
        private static URI getBaseURI() {
-                return UriBuilder.fromUri("https://afternoon-bayou-12442.herokuapp.com/introsde/introsde/user/getGoals").build();
+                return UriBuilder.fromUri("https://afternoon-bayou-12442.herokuapp.com/introsde/user/getGoals").build();
             }
 
        public static List<Goals> getGoalList() throws Exception {
