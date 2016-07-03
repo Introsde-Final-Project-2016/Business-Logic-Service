@@ -28,7 +28,7 @@ public class  PersonImp{
        
        private static URI getBaseURI() {
     	   System.out.println("URIII");
-                return UriBuilder.fromUri("http://10.218.206.53:5700/introsde/user/getDetail").build();
+                return UriBuilder.fromUri("https://afternoon-bayou-12442.herokuapp.com/introsde/user/getDetail").build();
             }
 
        public static Person getUserDetail() throws Exception {

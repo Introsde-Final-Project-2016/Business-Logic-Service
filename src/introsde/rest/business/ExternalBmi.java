@@ -18,7 +18,7 @@ import org.json.JSONArray;
 public class ExternalBmi {
 	
      private static URI getBaseURI(Double weight, Double height) {
-              return UriBuilder.fromUri("http://10.218.206.53:5700/introsde/user/getBmi/"+weight+"/"+height).build();
+              return UriBuilder.fromUri("https://afternoon-bayou-12442.herokuapp.com/introsde/user/getBmi/"+weight+"/"+height).build();
           }
 
      public static String getBmi(Double weight, Double height) throws Exception {
@@ -34,7 +34,6 @@ public class ExternalBmi {
   				.get();
               		
   		  String body = response.readEntity(String.class);
-  		  //JSONArray personArray = new JSONArray(body);
   		  
   		  return body;
 	

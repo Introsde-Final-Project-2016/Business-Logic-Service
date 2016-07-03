@@ -31,7 +31,7 @@ public class LifeStatusImp{
            
        
        private static URI getBaseURI() {
-                return UriBuilder.fromUri("http://10.218.206.53:5700/introsde/user/getLifeStatus").build();
+                return UriBuilder.fromUri("https://afternoon-bayou-12442.herokuapp.com/introsde/user/getLifeStatus").build();
             }
 
        public static List<LifeStatus> getAllLifes() throws Exception {

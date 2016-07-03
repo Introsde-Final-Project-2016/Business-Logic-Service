@@ -16,7 +16,7 @@ public class Quote {
 	// this class gets quote from storage
 	
 	 private static URI getBaseURI() {
-        return UriBuilder.fromUri("http://10.218.206.53:5700/introsde/user/getOne").build();
+        return UriBuilder.fromUri("https://afternoon-bayou-12442.herokuapp.com/introsde/user/getOne").build();
     }
 
 public static String getQuote() throws Exception {
